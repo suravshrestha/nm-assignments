@@ -24,7 +24,7 @@ int main()
     {
         double k1 = h * f(x, y);
         double k2 = h * f(x + h, y + k1);
-        double k = k2 - (k2 - k1) / 2.0f;
+        double k = k1 + (k2 - k1) / 2.0f;
 
         y += k;
         x += h;
