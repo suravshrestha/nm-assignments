@@ -57,7 +57,7 @@ int main()
     /* Divide each row by its diagonal element */
     for (int i = 0; i < n; ++i)
     {
-        double temp = a[i][i];
+        float temp = a[i][i];
         for (int j = n; j < 2 * n; ++j)
         {
             a[i][j] /= temp;
