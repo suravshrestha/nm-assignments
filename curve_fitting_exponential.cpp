@@ -14,10 +14,9 @@ int main()
     cin >> n;
 
     double x, y;
-    cout << "\nEnter the data for (x, y):\n";
+    cout << "\nEnter the data points (x, y):\n";
     for (int i = 0; i < n; ++i)
     {
-        cout << "(x" << i << ", y" << i << "): ";
         cin >> x >> y;
 
         sum_x += x;
