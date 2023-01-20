@@ -32,6 +32,10 @@ Part: II
   <li>
     <a href="./gauss_elimination.cpp">Gauss Elimination method</a>
   </li>
+    
+  <li>
+    <a href="./mat_inverse.cpp">Matrix inverse using Gauss-Jordan method</a>
+  </li>
 </ol>
 
 ## Interpolation
@@ -40,7 +44,8 @@ Part: II
     <li>
         Least square method of fitting curve for discrete data and continuous function:<br>
         <a href="./curve_fitting_linear.cpp">a) Fitting linear curve</a><br>
-        <a href="./curve_fitting_non_linear.cpp">b) Fitting non-linear curve</a>
+        <a href="./curve_fitting_exponential.cpp">b) Fitting exponential curve</a><br>
+        <a href="./curve_fitting_polynomial.cpp">b) Fitting polynomial curve</a>
     </li>
 </ol>
 
