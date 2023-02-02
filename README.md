@@ -41,12 +41,16 @@ Part: II
 ## Interpolation
 
 <ol>
-    <li>
-        Least square method of fitting curve for discrete data and continuous function:<br>
-        <a href="./interpolation/curve_fitting_linear.cpp">a) Fitting linear curve</a><br>
-        <a href="./interpolation/curve_fitting_exponential.cpp">b) Fitting exponential curve</a><br>
-        <a href="./interpolation/curve_fitting_polynomial.cpp">c) Fitting polynomial curve</a>
-    </li>
+  <li>
+      Least square method of fitting curve for discrete data and continuous function:<br>
+      <a href="./interpolation/curve_fitting_linear.cpp">a) Fitting linear curve</a><br>
+      <a href="./interpolation/curve_fitting_exponential.cpp">b) Fitting exponential curve</a><br>
+      <a href="./interpolation/curve_fitting_polynomial.cpp">c) Fitting polynomial curve</a>
+  </li>
+    
+  <li>
+    <a href="./interpolation/lagrange_interpolation.cpp">Lagrange interpolation</a>
+  </li>
 </ol>
 
 ## Solution of ordinary differential equations
@@ -60,5 +64,9 @@ Part: II
     Runge-Kutta methods:<br>
     <a href="./soln-of-ordinary-diff-eqns/rk2.cpp">a) Second-order (RK2)</a><br>
     <a href="./soln-of-ordinary-diff-eqns/rk4.cpp">b) Fourth-order (RK4)</a>
+  </li>
+  
+  <li>
+    <a href="./soln-of-ordinary-diff-eqns/rk4_2nd_order.cpp">Solution of 2nd order differential equation using RK4 method</a>
   </li>
 </ol>
