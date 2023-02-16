@@ -36,6 +36,10 @@ Part: II
   <li>
     <a href="./soln-of-system-of-linear-eqns/mat_inverse.cpp">Matrix inverse using Gauss-Jordan method</a>
   </li>
+    
+  <li>
+    <a href="./soln-of-system-of-linear-eqns/eigen.cpp">Finding largest Eigen value and corresponding vector by Power method</a>
+  </li>
 </ol>
 
 ## Interpolation
@@ -50,6 +54,22 @@ Part: II
     
   <li>
     <a href="./interpolation/lagrange_interpolation.cpp">Lagrange interpolation</a>
+  </li>
+</ol>
+
+## Numerical integration
+
+<ol>
+  <li>
+    <a href="./numerical-integration/trapezoidal.cpp">Trapezoidal rule</a>
+  </li>
+  
+  <li>
+    <a href="./numerical-integration/simpson1-3.cpp">Simpson's 1/3 rule</a><br>
+  </li>
+
+  <li>
+    <a href="./numerical-integration/simpson3-8.cpp">Simpson's 3/8 rule</a>
   </li>
 </ol>
 
