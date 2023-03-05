@@ -41,7 +41,7 @@ int main()
     {
         double f_x0 = f_(x0); /* f'(x0) */
 
-        if (f_x0 == 0.0f)
+        if (fabs(f_x0) <= 0.0005f)
         {
             cout << "Newton's method did not converge.\n";
             return -1;
