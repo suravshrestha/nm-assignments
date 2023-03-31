@@ -11,18 +11,15 @@ double f(double x)
 
 int main()
 {
-    double a = 0, b = 0;
+    double a, b;
 
-    /* Find the interval */
-    while (f(a) * f(b) > 0)
+    cout << "Enter the interval [a, b]: ";
+    cin >> a >> b;
+
+    if (f(a) * f(b) > 0)
     {
-        ++b;
-        if (f(a) * f(b) < 0)
-        {
-            break;
-        }
-
-        --a;
+        cout << "Invalid interval: f(a) * f(b) > 0\n";
+        return -1;
     }
 
     double error = 0.0001;
